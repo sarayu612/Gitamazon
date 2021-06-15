@@ -1,0 +1,8 @@
+17:28:40.176 [main] INFO  resources.Base - driver os initialized
+17:28:46.631 [main] INFO  resources.Base - successfully navigated to url
+17:34:15.788 [main] INFO  resources.Base - driver os initialized
+17:34:22.271 [main] INFO  resources.Base - successfully navigated to url
+17:34:28.806 [main] INFO  resources.Base - driver is initialized
+17:34:33.995 [main] INFO  resources.Base - successfully navigated to url
+17:34:35.224 [main] INFO  resources.Base - clicked on login
+17:34:37.832 [main] INFO  resources.Base - successfully navigated to url

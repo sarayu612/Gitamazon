@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="Testing.Automation.Listener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="validating amazon covid title(failed)" parallel="tests">
+    <classes>
+      <class name="Testing.Automation.TestAmazonCovidTitle">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="validateAppTitle"/>
+        </methods>
+      </class> <!-- Testing.Automation.TestAmazonCovidTitle -->
+    </classes>
+  </test> <!-- validating amazon covid title(failed) -->
+  <test thread-count="5" verbose="0" name="validatin userlogins(failed)" parallel="tests">
+    <classes>
+      <class name="Testing.Automation.HomePage">
+        <methods>
+          <include name="AmazonHomePage"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Testing.Automation.HomePage -->
+    </classes>
+  </test> <!-- validatin userlogins(failed) -->
+  <test thread-count="5" verbose="0" name="validatin amazon msg(failed)" parallel="tests">
+    <classes>
+      <class name="Testing.Automation.Amazonmessagevalidation">
+        <methods>
+          <include name="validatemessageTitle"/>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Testing.Automation.Amazonmessagevalidation -->
+    </classes>
+  </test> <!-- validatin amazon msg(failed) -->
+</suite> <!-- Failed suite [Suite] -->

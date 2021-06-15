@@ -1,0 +1,7 @@
+16:04:08.063 [TestNG-tests-2] INFO  resources.Base - successfully navigated to url
+16:04:09.158 [TestNG-tests-2] INFO  resources.Base - clicked on login
+16:04:37.436 [TestNG-tests-3] INFO  resources.Base - driver os initialized
+16:04:37.633 [TestNG-tests-2] INFO  resources.Base - driver is initialized
+16:04:37.771 [TestNG-tests-1] INFO  resources.Base - driver os initialized
+16:04:42.485 [TestNG-tests-3] INFO  resources.Base - successfully navigated to url
+16:04:43.986 [TestNG-tests-1] INFO  resources.Base - successfully navigated to url

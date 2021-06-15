@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38532" started-at="2021-06-15T01:47:17Z" finished-at="2021-06-15T01:47:56Z">
+    <groups>
+    </groups>
+    <test name="validating amazon covid title" duration-ms="31771" started-at="2021-06-15T01:47:17Z" finished-at="2021-06-15T01:47:49Z">
+      <class name="Testing.Automation.TestAmazonCovidTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Testing.Automation.TestAmazonCovidTitle@41d477ed]" name="initialize" is-config="true" duration-ms="2094" started-at="2021-06-15T01:47:17Z" finished-at="2021-06-15T01:47:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:Testing.Automation.TestAmazonCovidTitle@41d477ed]" name="validateAppTitle" duration-ms="29467" started-at="2021-06-15T01:47:19Z" finished-at="2021-06-15T01:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testing.Automation.TestAmazonCovidTitle@41d477ed]" name="teardown" is-config="true" duration-ms="178" started-at="2021-06-15T01:47:49Z" finished-at="2021-06-15T01:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testing.Automation.TestAmazonCovidTitle -->
+    </test> <!-- validating amazon covid title -->
+    <test name="validatin userlogins" duration-ms="38532" started-at="2021-06-15T01:47:17Z" finished-at="2021-06-15T01:47:56Z">
+      <class name="Testing.Automation.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Testing.Automation.HomePage@4802796d]" name="initialize" is-config="true" duration-ms="2295" started-at="2021-06-15T01:47:17Z" finished-at="2021-06-15T01:47:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="AmazonHomePage(java.lang.String, java.lang.String)[pri:0, instance:Testing.Automation.HomePage@4802796d]" name="AmazonHomePage" duration-ms="23984" started-at="2021-06-15T01:47:19Z" data-provider="getdata" finished-at="2021-06-15T01:47:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sarayu612@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jashu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonHomePage -->
+        <test-method status="PASS" signature="AmazonHomePage(java.lang.String, java.lang.String)[pri:0, instance:Testing.Automation.HomePage@4802796d]" name="AmazonHomePage" duration-ms="3820" started-at="2021-06-15T01:47:43Z" data-provider="getdata" finished-at="2021-06-15T01:47:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chinreddy1292@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaanu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonHomePage -->
+        <test-method status="PASS" signature="AmazonHomePage(java.lang.String, java.lang.String)[pri:0, instance:Testing.Automation.HomePage@4802796d]" name="AmazonHomePage" duration-ms="4255" started-at="2021-06-15T01:47:47Z" data-provider="getdata" finished-at="2021-06-15T01:47:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jaganhdfc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jagan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonHomePage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testing.Automation.HomePage@4802796d]" name="teardown" is-config="true" duration-ms="4164" started-at="2021-06-15T01:47:51Z" finished-at="2021-06-15T01:47:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testing.Automation.HomePage -->
+    </test> <!-- validatin userlogins -->
+  </suite> <!-- Suite -->
+</testng-results>

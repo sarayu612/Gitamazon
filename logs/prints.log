@@ -1,0 +1,7 @@
+16:04:45.903 [TestNG-tests-2] INFO  resources.Base - successfully navigated to url
+16:04:47.397 [TestNG-tests-2] INFO  resources.Base - clicked on login
+16:04:49.931 [TestNG-tests-3] INFO  resources.Base - successfully validated the title
+16:04:50.301 [TestNG-tests-2] INFO  resources.Base - successfully navigated to url
+16:04:51.194 [TestNG-tests-2] INFO  resources.Base - clicked on login
+16:04:52.918 [TestNG-tests-2] INFO  resources.Base - successfully navigated to url
+16:04:53.765 [TestNG-tests-2] INFO  resources.Base - clicked on login

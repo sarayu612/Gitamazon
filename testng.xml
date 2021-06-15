@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests" thread-count="10" verbose="10" configfailurepolicy="continue">
+
+<listeners>
+       <listener class-name="Testing.Automation.Listener" />
+   </listeners>
+  <test thread-count="5" name="validatin amazon msg">
+    <classes>
+      <class name="Testing.Automation.Amazonmessagevalidation"/>
+      </classes>
+      </test>
+      <test name="validatin userlogins">
+      <classes>
+      <class name="Testing.Automation.HomePage"/>
+      </classes>
+      </test>
+      <test name ="validating amazon covid title">
+      <classes>
+      <class name="Testing.Automation.TestAmazonCovidTitle"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
